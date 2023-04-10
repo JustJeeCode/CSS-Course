@@ -1,0 +1,30 @@
+body
+{
+	background-image: url("sunset.jpeg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+h1 
+{
+	background: linear-gradient(to left, lightgreen, skyblue, coral);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-left: .5%;
+	padding-right:.5%;
+}
+
+p
+{
+	background: linear-gradient(to left, lightgreen, skyblue, hotpink);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-left: .5%;
+	padding-right:.5%;
+}
