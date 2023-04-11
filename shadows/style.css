@@ -1,10 +1,17 @@
 h1
 {
-	/* first number = position on x axis, second number = position on y axis,
-	   third number = spread 
+	/* First number = position on x axis.
+	   Second number = position on y axis.
+	   Third number = spread.
 
-	   can put two shadows in the same line.
+	   We can put two shadows in the same line.
 	*/ 
+
+	/*	
+		Shadows work like:
+
+		text-shadow: x, y, spread, colour;
+	*/
 
 	text-shadow: 0px 0px 5px yellow, 0px -5px 5px red;
 }
@@ -12,6 +19,7 @@ h1
 h1:hover
 {
 	/* 
+		The box-shadow property
 		gives entire element the shadow effect
 	*/
 

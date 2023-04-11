@@ -1,5 +1,14 @@
 h1
 {
+	/*	
+	We can edit borders with the border properties
+	here we change the top of the border to dotted,
+	the bottom to dotted and left to double.
+
+	We then change the left width to 10px
+	and the color to silver.
+	*/
+
 	border-top-style: dotted;
 	border-bottom-style: dotted;
 	border-left-style: double;
@@ -12,6 +21,7 @@ p
 	border-style: outset;
 	border-width: 5px;
 	border-color: black;
+	/* Radius rounds the edges */
 	border-radius: 10px;
 	padding: .3%;
 }

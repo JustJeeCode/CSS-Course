@@ -1,5 +1,14 @@
 body
 {
+	/*	
+		Background properties can be edited
+		- here we have an image
+		- then we change it to no repeat
+		- then we change the attachment to fixed
+		- then position it to center
+		- and change its size to cover the background
+	*/
+
 	background-image: url("sunset.jpeg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -9,6 +18,11 @@ body
 
 h1 
 {
+	/*	
+		Here we create a gradient effect with the
+		linear-gradient property
+	*/
+
 	background: linear-gradient(to left, lightgreen, skyblue, coral);
 	background-repeat: no-repeat;
 	background-attachment: fixed;

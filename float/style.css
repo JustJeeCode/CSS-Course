@@ -7,11 +7,12 @@
 	text-align: center;
 	background-color: tomato;
 
+	/* Here we are floating the box class to left */
 	float: left;
 }
 
 /*
-clears the float for the paragraph text
+This code clears the float for the paragraph text
 
 p
 {

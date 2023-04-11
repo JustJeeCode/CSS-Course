@@ -7,17 +7,17 @@
 	text-align: center;
 
 	/*
-	referencing the animation
+	Referencing the animation
 	animation: mySlide;
 
 	animation-play-state: running;
 
-	number of times the animation runs
+	Number of times the animation runs
 	animation-iteration-count: infinite;
 
 	animation-delay: 0s;
 
-	how the animation runs e.g. linear, ease, ease in,
+	How the animation runs e.g. linear, ease, ease in,
 	ease out
 	animation-timing-function: linear;
 
@@ -31,7 +31,7 @@
 	animation: 3s linear 0s infinite running myColorChange;
 }
 
-/* can place animation in a pseudo class */
+/* Can place animation in a pseudo class */
 
 #box1:hover 
 {
@@ -43,13 +43,17 @@
 	
 }
 
-/* creating an animtion using the @keyframes then the name
+/* Creating an animtion using the @keyframes then the name
    of your animation */
+
 @keyframes mySlide
 {
 	from {margin-right: auto;}
 	to {margin-left: 100%;}
 }
+
+/* We don't have to use from and to tags we can use
+   percentages */
 
 @keyframes myRotate
 {
