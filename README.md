@@ -18,7 +18,7 @@ The concepts taught in this couse include:
 - Animation
 
 This repository is all my work following along his course,
-In my working files I have also documented what everything does.
+in my working files I have also documented what everything does.
 
 Here is the link to his video:
 
